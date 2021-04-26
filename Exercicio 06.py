@@ -1,0 +1,2 @@
+x=float(input('Digite um numero: '))
+print('O numero que vocé digitou foi {}.\n O dobro desse numero é {}.\n O triplo desse numero é {}.\n E a raiz quadrada desse numero é {}.'.format(x, x*2, x*3, x**(1/2)))

@@ -1,0 +1,11 @@
+#Crie um programa python que leia o nome de alguem e dai mostre todas as informaççoes possiveis sobre ele
+x=str(input('Por favor digite seu nome: ')).strip()
+print('Analisando . . . ')
+print('Seu nome é {} !'.format(x))
+print('Seu nome em maiúsculas é {};'.format(x.upper()))
+print('Seu nome em minúsculas é {};'.format(x.lower()))
+print('Seu nome tem um total de {} letras;'.format(len(x)-x.count(' ')))
+#print('Seu primeiro nome é {};'.format(x.find(' ')))
+separa=x.split()
+print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
+print('Fim da analise')

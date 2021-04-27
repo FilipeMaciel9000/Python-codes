@@ -1,0 +1,6 @@
+n=str(input("Por favor. Digite seu nome:"))
+dv=input('Digite o dia de vencimento:')
+mv=input('Digite o mês de vencimento:')
+f=input('Digite o valor da fatura:')
+print('Olá, {}'.format(n))
+print('A sua fatura com vencimento em {} de {} no valor de R$ {} está fechada.'.format(dv,mv,f))

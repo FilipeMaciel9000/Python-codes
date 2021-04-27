@@ -1,0 +1,13 @@
+cores = {'limpa': '\033[m',
+         'verde': '\033[32m',
+         'azul': '\033[34m',
+         'ciano': '\033[36m',
+         'lilas': '\033[35m',
+         'preto': '\033[30m',
+         'vermelho': '\033[31m',
+         'amarelo': '\033[33m',
+         'pretoebranco': '\033[7:30;40m',
+         'pretoecinza': '\033[7:30m',
+         'matrix': '\33[0;32;40m',
+         'rubronegro': '\33[0;31;40m',
+         'azulepreto': '\33[7;30;44m'}

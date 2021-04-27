@@ -3,9 +3,9 @@ Achei melhor fazer logo com a estrutura while
 '''
 n = int(input(' Digite o numero da tabuada que você quer estudar: \n '))
 x = 1
-y = n
+y = 1
 z = 1
-w = n
+w = 1
 print('DIVISÃO°{}\n'.format(n))
 while x <= 10:
     d = x / n
